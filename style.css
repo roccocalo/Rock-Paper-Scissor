@@ -1,0 +1,71 @@
+body {
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    caret-color: transparent;
+    color: rgb(80, 82, 78);
+    font-size: x-large;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+   display: flex;
+   gap: 90px;
+}
+.buttons input {
+    height: 250px;
+}
+
+.live-result {
+    display: flex;
+    gap: 120px;
+    margin-top: 23px;
+    font-weight: 900px;
+    color: rgb(13, 13, 11);
+    background-color: rgba(145,146,143,0.4);
+    border-radius: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-result {
+    display: flex;    
+    margin-top: 60px;
+    background-color: rgba(145,146,143,0.2);
+    border-radius: 13px;
+    padding: 20px;
+}
+
+
+
+
+.footer img {
+    height: 20px;
+}
+
+
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    height: 32px;
+    gap: 6px;
+    background-color: rgb(145,146,143);
+    align-items: center;
+    color: rgb(223,229,230);
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(223,229,230);
+}
