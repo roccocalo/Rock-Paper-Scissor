@@ -28,7 +28,7 @@ body {
 
 .live-result {
     display: flex;
-    gap: 120px;
+    gap: 100px;
     margin-top: 23px;
     font-weight: 900px;
     color: rgb(13, 13, 11);
@@ -68,4 +68,12 @@ body {
 .footer a {
     text-decoration: none;
     color: rgb(223,229,230);
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+body {
+    width: 480px;
+}
 }
