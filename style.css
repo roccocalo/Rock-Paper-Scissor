@@ -19,9 +19,10 @@ body {
 }
 
 .buttons {
-   display: flex;
-   gap: 90px;
+    display: flex;
+    gap: 90px;
 }
+
 .buttons input {
     height: 250px;
 }
@@ -32,48 +33,57 @@ body {
     margin-top: 23px;
     font-weight: 900px;
     color: rgb(13, 13, 11);
-    background-color: rgba(145,146,143,0.4);
+    background-color: rgba(145, 146, 143, 0.4);
     border-radius: 13px;
     padding-left: 13px;
     padding-right: 13px;
 }
 
 .text-result {
-    display: flex;    
+    display: flex;
     margin-top: 60px;
-    background-color: rgba(145,146,143,0.2);
+    background-color: rgba(145, 146, 143, 0.2);
     border-radius: 13px;
     padding: 20px;
 }
 
-
-
-
 .footer img {
     height: 20px;
 }
-
-
 
 .footer {
     display: flex;
     margin-top: auto;
     height: 32px;
     gap: 6px;
-    background-color: rgb(145,146,143);
+    background-color: rgb(145, 146, 143);
     align-items: center;
-    color: rgb(223,229,230);
+    color: rgb(223, 229, 230);
 }
 
 .footer a {
     text-decoration: none;
-    color: rgb(223,229,230);
+    color: rgb(223, 229, 230);
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-body {
-    width: 480px;
-}
+@media all and (max-width: 480px) {
+    body {
+        font-size: 17px;
+    }
+
+    .buttons input {
+        height: 100px;
+    }
+
+    .buttons {
+        gap: 25px;
+    }
+
+    .live-result {
+        gap: 30px;
+    }
+
+    .main-container {
+        margin-top: 32px;
+    }
 }

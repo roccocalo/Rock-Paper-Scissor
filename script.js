@@ -35,7 +35,6 @@ function singleRound(playerSelection) {
     }
 }
 
-
 let pointComputer = 0;
 let pointPlayer = 0;
 
@@ -65,17 +64,15 @@ function game(temp) {
         computerScore.textContent = "Computer Score:" + pointComputer;
     }
 
-    if (pointPlayer == 5 ) {
+    if (pointPlayer == 5) {
         textResult.textContent = "Player Wins!";
-        alert("Player Wins!")
         pointComputer = 0;
         pointPlayer = 0;
         playerScore.textContent = "Player Score:" + pointPlayer;
         computerScore.textContent = "Computer Score:" + pointComputer;
-    } 
+    }
     else if (pointComputer == 5) {
         textResult.textContent = "Computer Wins!";
-        alert("Computer Wins!")
         pointComputer = 0;
         pointPlayer = 0;
         playerScore.textContent = "Player Score:" + pointPlayer;
